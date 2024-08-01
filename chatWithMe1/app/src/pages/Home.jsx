@@ -86,21 +86,14 @@ const Home = () => {
                 })}
             </div>
 
-            {/* {(ans || status) &&
+            {(status) &&
                 <div>
                     <h1 className='mt-2 mx-10 bg-slate-100 p-2 my-1 rounded-md' >{status}</h1>
-                    {ans?.map((ans) => {
-                        return <div className='mt-2 mx-10 bg-slate-100 p-2 my-1 rounded-md'>
-                            
-                            <h1>{ans}</h1>
-                        </div>
-                    })}
+                   
                 </div>
-            } */}
-            {/* 
-            {questions.map((value,i)=>{
-                return
-            })} */}
+            }
+
+           
 
 
             <div className='w-full  fixed bottom-2 z-0 flex flex-row items-center justify-center'>
